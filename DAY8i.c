@@ -1,0 +1,34 @@
+#include<stdio.h>
+int main()
+{
+char ch;
+printf("Enter a character of ur choise:");
+scanf("%c",&ch);
+if (ch>='A' && ch<='Z'){
+printf("%c is upper case\n",ch);
+}
+else if (ch>='a' && ch<='z'){
+printf("%c is lower case\n",ch);
+}
+else if (ch>='0' && ch<='9'){
+printf("%c is a digit\n",ch);
+}
+else
+{
+printf("%c is a special character\n",ch);
+}
+return 0;
+}
+
+//Enter a character of ur choise:A
+//A is upper case
+
+//Enter a character of ur choise:a
+//a is lower case
+
+//Enter a character of ur choise:8
+//8 is a digit
+
+//Enter a character of ur choise:&
+//& is a special character
+
